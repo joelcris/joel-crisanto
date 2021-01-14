@@ -7,12 +7,16 @@ export default class header extends Component {
             <div className="s-hero__bg rellax" data-rellax-speed={-7} />
             <div className="row s-hero__content">
             <div className="column">
+                <div >
+                <img  src="images/header.png" alt />
+                </div>
                 <div className="s-hero__content-about">
-                <h1>I'm Jonathan Doe.</h1>
+                <h1>Luna Nueva</h1>
                 <h3>
-                    I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-                    effective visual identities for companies of all sizes around the globe. Let's <a className="smoothscroll" href="#about">start scrolling</a>
-                    and learn more <a className="smoothscroll" href="#about">about me</a>.
+                    <span>Construcciones y Proyectos de Alto Nivel Luna Nueva</span> es una empresa con sede en la Ciudad de Oaxaca,
+                    fundada el 18 de junio del 2018.
+
+                    <a className="smoothscroll" href="#about">Acerca de Nosottros</a>.
                 </h3>
                 <div className="s-hero__content-social">
                     <a href="#0"><i className="fab fa-facebook-square" aria-hidden="true" /></a>
